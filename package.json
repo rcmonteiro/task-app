@@ -1,0 +1,19 @@
+{
+  "name": "task-app",
+  "version": "1.0.0",
+  "description": "Simple Task App made in pure Node.js",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [],
+  "author": "rcmonteiro",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.7"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.5"
+  }
+}

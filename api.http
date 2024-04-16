@@ -1,0 +1,40 @@
+# Get Tasks
+GET http://localhost:3000/tasks
+
+###
+
+# Create new Task
+POST http://localhost:3000/tasks
+Content-Type: application/json
+
+{
+  "title": "Montar a rota de criar nova task",
+  "description": "Montar a rota POST /tasks para criar tasks"
+}
+
+###
+
+# Atualizar Task
+PUT http://localhost:3000/tasks/
+Content-Type: application/json
+
+{
+  "title": "Montar a rota de criar nova task",
+  "description": "Montar a rota POST /tasks para criar tasks"
+}
+
+###
+
+# Apagar Task
+PUT http://localhost:3000/tasks/
+Content-Type: application/json
+
+{
+  "title": "Montar a rota de criar nova task",
+  "description": "Montar a rota POST /tasks para criar tasks"
+}
+
+###
+
+# Completar Task
+PATCH http://localhost:3000/tasks/71670603-3789-425d-8f93-cfcbb73b8ecd/complete
